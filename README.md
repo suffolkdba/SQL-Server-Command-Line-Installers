@@ -3,15 +3,22 @@
 
 
 
-Config File Setup
+### Config File Setup
 Add                     IACCEPTSQLSERVERLICENSETERMS="True"
+
 Amend to                QUIET="True"
+
 Remove or Comment out   UIMODE="Normal"
 
-SQL Server Express 2008R2 - Bugged Atm
+
+### SQL Server Express 2008R2 - Bugged Atm
+
 Temp Directory needs adding for the setup files:
+
 C:\Temp\PCUSource
+
 Folder Settings in ini = C:\SQLServer2008R2
+
 C:\Installers>SQLServer2008R2Express64Bit.exe /ConfigurationFile="C:\Installers\SQLServerExpress2008R2.ini" /SAPWD="My Password"
 
 ### SQL Server Express 2012
@@ -34,8 +41,10 @@ D:\Setup.exe /ConfigurationFile="C:\Installers\SQLServerEvaluation2014.ini" /SAP
 
 ### SQL Server Development 2016
 
+4 x TempDB Files Pre-Grown to 1GB with Autogrowth set to 200MB
+TempDb Log Pre-Grown to 500MB with AutoGrowth set to 100MB
 Folder Settings in ini = C:\SQLServerDev2016
-
+Filestream Enabled
 D:\Setup.exe /ConfigurationFile="C:\Installers\SQLServerDev2016.ini" /SAPWD="My Password"
 
 
