@@ -16,6 +16,8 @@ SQL Server Express 2012
 
 C:\Installers>SQLServer2012Express64Bit.exe /ConfigurationFile="C:\Installers\SQLServerExpress2012.ini" /SAPWD="My Password"
 
+SQL Server Evaluation 2012
+D:\Setup.exe /ConfigurationFile="C:\Installers\SQLServerEvaluation2012.ini" /SAPWD="My Password"
 
 
 
