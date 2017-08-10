@@ -14,7 +14,7 @@ C:\Installers>SQLServer2008R2Express64Bit.exe /ConfigurationFile="C:\Installers\
 
 SQL Server Express 2012
 
-C:\Installers>SQLServer2012Express64Bit.exe /ConfigurationFile="C:\Installers\SQLServerExpress20012.ini" /SAPWD="My Password"
+C:\Installers>SQLServer2012Express64Bit.exe /ConfigurationFile="C:\Installers\SQLServerExpress2012.ini" /SAPWD="My Password"
 
 
 
