@@ -11,16 +11,6 @@ Amend to                QUIET="True"
 Remove or Comment out   UIMODE="Normal"
 
 
-### SQL Server Express 2008R2 - Bugged Atm
-
-Temp Directory needs adding for the setup files:
-
-C:\Temp\PCUSource
-
-Folder Settings in ini = C:\SQLServer2008R2
-
-C:\Installers>SQLServer2008R2Express64Bit.exe /ConfigurationFile="C:\Installers\SQLServerExpress2008R2.ini" /SAPWD="My Password"
-
 ### SQL Server Express 2012
 
 Folder Settings in ini = C:\SQLServer2012
