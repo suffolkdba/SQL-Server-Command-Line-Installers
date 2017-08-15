@@ -85,3 +85,13 @@ IFI Enabled
 Folder Settings in ini = C:\SQLServerDev2017RC2
 
 D:\Setup.exe /ConfigurationFile="C:\Installers\SQLServerDev2017RC2.ini" /SAPWD="My Password"
+
+
+### Setting up a Demo for Central Managed Servers and Multi Server Administration
+
+#### Step 1.  Create a Folder C:\Installers
+
+#### Step 2.  Add the ini files SQLServerDev2017RC2-01 through to SQLServerDev2017RC2-05
+
+#### Step 3.  Run the basic powershell script "Create Multiple SQL Folders and then Install" and voila, 15-20mins later you have 5 SQL 2017 RC2 Instances ready to play with
+
